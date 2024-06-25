@@ -1,0 +1,15 @@
+body{
+  background-color: #333;
+}
+#canvas1{
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background: url('assets/background.png');
+}
+
+#beetlemorph, #player, #player_jets, #rhinomorph, #boss, #eaglemorph, #lobstermorph, #squidmorph, #enemyProjectile, #boss8{
+  display: none;
+}
